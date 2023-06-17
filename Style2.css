@@ -1,11 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
 
-:root{
-    --white-light: rgba(255, 255, 255, 0.5);
-    --Red: #ff0000;
-    --gray: #ededed;
-    
-}
 *{
     padding: 0;
     margin: 0;
@@ -52,7 +46,6 @@ body{
     font-family: "Poppins", sans-serif;
 }
 
-/* Utility stylings */
 img{
     width: 100%;
     display: block;
@@ -103,13 +96,13 @@ img{
     position: relative;
 }
 .product-content{
-    background: var(--gray);
+    background: #e4e4e4;
     padding: 3rem 0.5rem 2rem 0.5rem;
     cursor: pointer;
 }
 .product-img{
-    background: var(--white-light);
-    box-shadow: 0 0 20px 10px var(--white-light);
+    background: #ffffff;
+    box-shadow: 0 0 20px 10px #ffffff;
     width: 200px;
     height: 200px;
     margin: 0 auto;
@@ -163,9 +156,9 @@ img{
     padding-right: 0.6rem;
     display: inline-block;
 }
-.product-price:first-of-type{
+.product-price:nth-of-type(2) {
     text-decoration: line-through;
-    color: var(--Red);
+    color: #ff0000;
 }
 .product-img img{
     transition: transform 0.6s ease;
@@ -174,13 +167,13 @@ img{
     transform: scale(1.1);
 }
 .product:hover .product-img{
-    background: var(--Red);
+    background: #ff0000;
 }
 .product:hover .product-btns{
     opacity: 1;
 }
 .off-info .sm-title{
-    background: var(--Red);
+    background: #ff0000;
     color: white;
     display: inline-block;
     padding: 0.5rem;
@@ -220,7 +213,7 @@ img{
     font-family: inherit;
 }
 .btn-dark:hover{
-    background: var(--Red);
+    background: #ff0000;
 }
 
 footer {
